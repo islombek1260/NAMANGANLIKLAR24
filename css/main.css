@@ -1,46 +1,89 @@
+body{
+    font-family: rubik;
+}
 .header_top{
     background-color: #99a4b0;
+    font-style: regular;
+    font-weight: 400;
+
 }
 .poisk{
     background-color: #F6F6F6;
+    color: #8D8D8D;
     line-height: 50px;
     text-decoration: none;
+    line-height: 40px;
+    font-size: 14px;
+    line-height: 16px;
 }
 .leangue{
     background-color: #DCE6FF;
+    color: #A6A6A6;
     list-style: none;
     text-decoration: none;
-    line-height: 40px;   
+    line-height: 40px;
+    font-size: 13px;
+    line-height: 15px;   
 }
 .leangue1{
     background-color: rgb(255, 255, 255);
+    color: black;
     list-style: none;
-    text-decoration: none;   
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 15px;   
 }
 .voyti{
-    font-family: rubik;
-    font-style: regular;
+    background-color: #7296EC;
+    color: #F6F6F6;
+    text-decoration: none;
     font-size: 16px;
     line-height: 19px;
-    line-height: 100%;
+    font-style: medium;
+    font-weight: 500;
 }
-
 .tepa-menu{
    color: #7F7F7F;
    text-decoration: none;
-   list-style: none; 
+   list-style: none;
+   font-size: 18px;
+   line-height: 21px;
+   font-style: medium;
+   font-weight: 500; 
 }
-
 .mavzu{
     color: black;
     text-decoration: none;
     list-style: none;
     background-color: #F6F6F6;
+    line-height: 110%;
+    font-size: 20px;
+    line-height: 26px;
+    font-style: regular;
+    font-weight: 500;
 }
-
+.mavzu-comment{
+    line-height: 116%;
+    font-size: 16px;
+    line-height: 22px;
+    font-style: regular;
+    font-weight: 400;
+}
 .pas-menu{
-    color: #F6F6F6;
+    color: #ffffff;
     text-decoration: none;
     list-style: none;
     background-color: #7297EF;
+    line-height: 100%;
+    font-size: 16px;
+    line-height: 19px;
+    font-style: medium;
+    font-weight: 500;
+}
+.pas-coment{
+    line-height: 134%;
+    font-size: 12px;
+    line-height: 19px;
+    font-style: regular;
+    font-weight: 400;
 }
