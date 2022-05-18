@@ -5,93 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME 2 | Namanganliklar24 </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+        
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header class="header_top">
-        <a href="./index.html">
-            <img src="./picture/namangan24-logo.svg" 
-            width="276" 
-            height="45" 
-            alt="namanganliklar24-logo">
-        </a>
+    <header>
+        <div class="header_top">
+            <a href="./index.html">
+                <img src="./picture/namangan24-logo.svg" 
+                width="276" 
+                height="45" 
+                alt="namanganliklar24-logo">
+            </a>
         <div>
-            <img src="./picture/$.svg" width="11" height="19" alt="dollar-cost">
+            <img src="./picture/$.svg"
+             width="11" 
+             height="19" 
+             alt="dollar-cost">
             <ins>10137.2</ins>
-            <img src="./picture/P.svg" width="11" height="19" alt="nothing">
+            <img src="./picture/P.svg" 
+            width="11" 
+            height="19" 
+            alt="nothing">
             <ins>138.26</ins>
         </div>
         <div>
-            <span>
-                <a href="#">
-                    <img src="./picture/search-logo.svg" width="20" height="20" alt="search-logo">
-                     Поиск
-                </a>
-            </span>
-            <span>
-                <a href="#">
+            <a class="poisk" href="#">
+                <img src="./picture/search-logo.svg" 
+                width="15" 
+                height="15" 
+                alt="search-logo">
+                Поиск
+            </a> 
+        </div>
+        <span>
+            <span class="leangue">
+                <a class="leangue1" href="#">
                     UZ
                 </a>
             </span>
             <span>
-                <a href="#">
+                <a class="leangue" href="#">
                     RU
                 </a>
             </span>
-            <a href="#">войти</a>
+        </span>
+        <div>
+            <a class="voyti" href="#">Войти</a>
         </div>
-
         </div>
         <div>
             <nav>
-                <ul>
+                <ul class="tepa-menu">
                     <li>
-                        <a style="tepa-menu" href="./index.html" target="_blank">
+                        <a class="tepa-menu" href="./index.html" target="_blank">
                             Главное
                         </a>
                     </li>
                     <li>
-                        <a style="tepa-menu" href="#">
+                        <a class="tepa-menu" href="#">
                             Интересное
                         </a>
                     </li>
                     <li>
-                        <a style="tepa-menu" href="#">
+                        <a class="tepa-menu" href="#">
                             Экономика
                         </a>
                     </li>
                     <li>  
-                        <a style="tepa-menu" href="#">
+                        <a class="tepa-menu" href="#">
                             Политика
                         </a>
                     </li>
                     <li>
-                        <a style="tepa-menu" href="#">
+                        <a class="tepa-menu" href="#">
                             Общество
                         </a>
                     </li>
                     <li>
-                        <a style="tepa-menu" href="#">
+                        <a class="tepa-menu" href="#">
                             Технологии
                         </a>
                     </li>
                     <li>
-                        <a style="tepa-menu" href="#">
+                        <a class="tepa-menu" href="#">
                             Спорт
                         </a>
                     </li>
                     <li>
-                        <a style="tepa-menu" href="#">
+                        <a class="tepa-menu" href="#">
                             Культура
                         </a>
                     </li>
                     <li>
-                        <a style="tepa-menu" href="#">
+                        <a class="tepa-menu" href="#">
                             Происшествия
                         </a>
                     </li>
                     <li>
-                        <a style="tepa-menu" href="#">
+                        <a class="tepa-menu" href="#">
                             Наука
                         </a>
                     </li>
@@ -128,7 +144,6 @@
                     srcset="./picture/nemis-1.jpg 1x, ./picture/nemis-1_2x.jpg 2x" 
                     alt="germany">
                     <br>
-
                     <div>
                         <img src="./picture/kv-german-logo.svg"> 
                         <p>
@@ -138,7 +153,6 @@
                                 </time>
                         </p>
                     </div>
- 
                 </li>
                 <li>
                     <a class="mavzu" href="#" target="_blank">
@@ -255,7 +269,7 @@
             <h2>В мире</h2>
             <section>
                 <ul>
-                    <li>
+                    <li class="mavzu">
                         <img src="./picture/samalyot.jpg"
                             width="210"
                             height="165"
@@ -282,7 +296,8 @@
                             </time>
                         </div>
                     </li>
-                    <li>
+                    <br>
+                    <li class="mavzu">
                         <img src="./picture/markel.jpg"
                             width="210"
                             height="165"
@@ -309,7 +324,8 @@
                             </time>
                         </div>
                     </li>
-                    <li>
+                    <br>
+                    <li class="mavzu">
                         <img src="./picture/xitoy2.jpg" 
                             width="210"  
                             height="165"
@@ -336,7 +352,8 @@
                             </time>
                         </div>
                     </li>
-                    <li>
+                    <br>
+                    <li class="mavzu">
                         <img src="./picture/xitoy_bayroq.jpg"
                             width="210"  
                             height="165"
@@ -520,7 +537,7 @@
             </ul>
         </div>
         <hr>
-        <div>
+        <div class="pas-menu">
             <p>
                 Наши<br> 
                 социальные сети

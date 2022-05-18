@@ -1,13 +1,44 @@
-header{
-    background-color: #F6F6F6;
+.header_top{
+    background-color: #99a4b0;
 }
+.poisk{
+    background-color: #F6F6F6;
+    line-height: 50px;
+    text-decoration: none;
+}
+.leangue{
+    background-color: #DCE6FF;
+    list-style: none;
+    text-decoration: none;
+    line-height: 40px;   
+}
+.leangue1{
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    text-decoration: none;   
+}
+.voyti{
+    font-family: rubik;
+    font-style: regular;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+}
+
 .tepa-menu{
-   color: black;
-   text-decoration: none; 
+   color: #7F7F7F;
+   text-decoration: none;
+   list-style: none; 
 }
 
 .mavzu{
     color: black;
+    text-decoration: none;
+    list-style: none;
+    background-color: #F6F6F6;
+}
+.orqa-fon{
+    background-color: #7F7F7F;
 }
 
 footer{
@@ -17,4 +48,5 @@ footer{
 .pas-menu{
     color: #F6F6F6;
     text-decoration: none;
+    list-style: none;
 }
